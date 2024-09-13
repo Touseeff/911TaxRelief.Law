@@ -1,0 +1,5 @@
+@include('layout.header_script')
+@include('layout.header')
+@yield('main-content')
+@include('layout.footer')
+@include('layout.footer_script')

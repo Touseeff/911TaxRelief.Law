@@ -1,0 +1,358 @@
+/* for general stylings (both, mobile && desktop) */
+@media (max-width: 320px) {
+    #desktop-cover{
+        display: none;
+    }
+    #mb-cover{
+        display: block;
+    }
+    .journal-cover-h {
+        font-size: 1.3rem !important;
+    }
+
+    .impact-factor-image {
+        padding-top: 230px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .mb-view-journal-cover-h{
+        padding-top: 1px !important;
+    }
+    
+    .journal-desc-mbv{
+        padding-left: 0px;
+    }
+    .journal-title-mbv{
+        font-size: medium;
+    }
+
+    .mb-view-issn-and-volume-journal-title{
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .mb-view-issn-and-volume-container{
+        padding-left: 0px;
+    }
+
+    .mb-view-issn-and-volume{
+        font-size: medium;
+    }
+
+    .journal-title-mb-view{
+        font-size: 1.075rem !important;
+    }
+
+    .impact-factor-bm-view{
+        padding-right: 16px;
+    }
+    .journal-mb-view{
+    padding-right: 32px !important;
+    }
+    .cover-image-for-mb{
+        padding-right: 40px !important;
+
+    }
+    #desktop-cover{
+        display: none;
+    }
+    #mb-cover{
+        display: block;
+    }
+    #jouranl-caver-mb-view{
+        display: flex;
+    flex-wrap: nowrap;
+    /* margin-right: 60px !important; */
+    margin-left: -16px;
+    justify-content: center;
+    flex-direction: column;
+
+    }
+ 
+    #sidebar-str{
+    margin-top: 5px;
+ }
+    .col-12 {
+        padding-right: 0px;
+    }
+
+    .content {
+        margin-bottom: 5px;
+    }
+
+    .main-heading {
+        margin-top: 10px !important;
+        padding-left: 17px;
+    }
+
+    .decorated {
+        margin-left: 0px !important;
+        padding-top: 8px !important;
+        font-size: 46px !important;
+
+    }
+
+    .decorated1 {
+        margin-right: 0.5rem !important;
+        margin-left: 10px !important;
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    .cover-image-for-mb{
+        padding-right: 40px !important;
+
+    }
+    #desktop-cover{
+        display: none;
+    }
+    #mb-cover{
+        display: block;
+    }
+    .impact-factor-no-bv {
+        display: none;
+    }
+
+    .impact-factor-image {
+        margin-top: 240px !important;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .w-100 {
+        /* width: !important; */
+    }
+
+    .journal-cover-h {
+        font-size: 1.3rem !important;
+    }
+
+    .main-header .navbar-brand img {
+        margin-left: 31px;
+        width: 63%;
+    }
+
+    .top_art_img {
+        padding-right: 0px;
+    }
+
+    .author-info {
+        display: flex;
+        padding-top: 5px;
+        flex-direction: column;
+    }
+
+    .card-do--commentary {
+        flex-direction: column;
+    }
+
+    .card-do .card-image {
+        max-width: 326px;
+    }
+
+    .card-meta__category {
+        font-weight: 700;
+    }
+
+    .recet-article-cont {
+        padding-top: 12px;
+    }
+
+    .card-do .card-meta__category {
+        padding-left: 0px;
+    }
+
+    .recent_trend_art {
+        margin-right: 16px !important;
+    }
+
+    .author_ides {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+
+    #news-mq {
+        padding-left: 1px;
+    }
+
+    .about-us {
+        word-wrap: break-word;
+    }
+
+
+
+    .sidebar-mb {
+        display: none;
+    }
+
+    .grid-hero-teaser__img {
+        left: 10px;
+    }
+
+    .cover-top {
+        top: -55px;
+    }
+
+    .issn_no_v {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .grid-quote {
+        padding-top: 1px;
+    }
+
+    /* //home page issue */
+    /* .col-12 {
+        padding-right: 0px;
+    } */
+
+    .news-mq {
+        padding-left: 1px !important;
+    }
+
+
+    #news-mq {
+        padding-left: 1px;
+    }
+
+
+    .footer__sitemap__nav1 {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-left: 16px;
+    }
+
+
+
+
+    .footer__sitemap__nav {
+        gap: 32px 16px;
+        gap: 0px 0rem;
+    }
+
+    .pb-2x,
+    .py-2x {
+        padding-bottom: 0px;
+    }
+
+    .grid-quote {
+        padding-top: 1px;
+    }
+
+    .footer-cf {
+        padding-top: 0px;
+    }
+
+    .footer_links {
+        padding-top: 0px;
+    }
+
+    .issn_no_v {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-us {
+        padding-right: 0px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #desktop-cover{
+        display: block;
+    }
+    #mb-cover{
+        display: none;
+    }
+    .main-header .navbar-brand img {
+        width: 80%;
+    }
+
+    .mb_view {
+        max-width: 27%;
+    }
+
+    .grid-hero--horizontal {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: .95fr 1fr;
+        grid-template-areas:
+            "featured featured featured featured featured featured featured right right latest latest latest"
+            "bottom bottom bottom bottom bottom bottom bottom right right latest latest latest";
+    }
+
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-right: 27px !important; */
+        margin-left: -16px;
+    }
+
+    .footer__sitemap__nav {
+        display: flex;
+
+    }
+
+    .footer__sitemap__nav2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .list-inline {
+        margin: -11px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+
+
+}
+
+/* Desktops  */
+@media (min-width: 1025px) {
+    #desktop-cover{
+        display: block;
+    }
+    #mb-cover{
+        display: none;
+    }
+    .impact-factor-no {
+        display: none;
+        text-transform: uppercase;
+
+    }
+
+    .mb_view {
+        max-width: 27%;
+    }
+
+    .container-fluid {
+        width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footer-cf {
+        padding-top: 58px;
+    }
+
+    .footer_links {
+        padding-top: 30px;
+    }
+
+    .footer__sitemap__nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .togle_button1 {
+        display: none;
+    }
+
+}
